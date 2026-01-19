@@ -158,3 +158,35 @@ li:hover {
     background: #fff;
     color: #764ba2;
 }
+
+@media (max-width: 480px) {
+    .container {
+        padding: 1.5rem;
+        width: 100%;
+        max-width: 90%;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    #todo-input {
+        padding: 0.8rem;
+    }
+
+    #add-btn {
+        padding: 0 1rem;
+    }
+
+    li {
+        padding: 0.8rem;
+    }
+
+    .task-text {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        padding: 0.4rem;
+    }
+}
